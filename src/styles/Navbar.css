@@ -1,0 +1,127 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 7rem;
+  background-color: #726da8;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  top: 0;
+}
+
+.header_container_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 7rem;
+  padding: 1rem;
+}
+
+.header_container_logo h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.bars {
+  font-size: 2rem;
+  color: #fff;
+  transition: transform 1s;
+}
+
+.rotate-bars {
+  transform: rotate(-90deg);
+  transition: transform 1s;
+}
+
+.header_container_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #726da8;
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.nav-open {
+  max-height: 100rem;
+  transition: max-height 1s;
+}
+
+.header_container_nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  list-style: none;
+}
+
+.header_container_nav_list li {
+  margin: 1rem 0 1rem 0;
+  position: relative;
+}
+
+.navlink {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  transform: scale(0, 1);
+  transition: transform 1s;
+}
+
+.active::after {
+  transform: scale(1, 1);
+  transition: transform 1s;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header_container {
+    justify-content: space-between;
+  }
+
+  .header_container_logo {
+    justify-content: center;
+    width: 25rem;
+  }
+  .bars {
+    display: none;
+  }
+
+  .header_container_nav {
+    width: 40rem;
+    max-height: 100rem;
+  }
+
+  .header_container_nav_list {
+    flex-flow: row wrap;
+    height: 7rem;
+  }
+
+  .header_container_nav_list li {
+    margin: 0;
+  }
+
+  .header_container_nav_list li a {
+    font-size: 2rem;
+  }
+}

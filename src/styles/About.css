@@ -1,0 +1,25 @@
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 90%;
+  height: auto;
+}
+
+.about_container h1 {
+  font-size: 5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.about_container p {
+  font-size: 2rem;
+  text-align: justify;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px) {
+  .about_container p {
+    width: 70rem;
+  }
+}

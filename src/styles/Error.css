@@ -1,0 +1,36 @@
+.error_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  width: 90%;
+  height: 50rem;
+}
+
+.error_container h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.error_container a {
+  background-color: #726da8;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 1s, outline 1s, color 1s;
+}
+
+.error_container a:hover {
+  background-color: #fff;
+  outline: 0.2rem solid #726da8;
+  color: #726da8;
+  transition: background-color 1s, outline 1s, color 1s;
+}
+
+.error_container img {
+  height: 25rem;
+  width: 25rem;
+  object-fit: cover;
+}
