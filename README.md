@@ -30,7 +30,7 @@ I made a web application that allows you to see different types of drinks. If we
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Cocktail%20app%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Cocktail%20App%20Page`
 
 ## Video
 
