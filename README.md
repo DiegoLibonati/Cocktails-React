@@ -16,21 +16,9 @@ I made a web application that allows you to see different types of drinks. If we
 1. React JS
 2. CSS3
 
-## Galery
-
-![Cocktails-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/cocktailreact-0.jpg)
-
-![Cocktails-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/cocktailreact-1.jpg)
-
-![Cocktails-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/cocktailreact-2.jpg)
-
-![Cocktails-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/cocktailreact-3.jpg)
-
-![Cocktails-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/cocktailreact-4.jpg)
-
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Cocktail%20App%20Page`
+[`https://www.diegolibonati.com.ar/#/project/26`](https://www.diegolibonati.com.ar/#/project/26)
 
 ## Video
 
