@@ -1,10 +1,9 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import { useGlobalContext } from "../context/context";
 import "../styles/Navbar.css";
-import { useGlobalContext } from "../helpers/context";
 
-export const Navbar = () => {
+export const Navbar = (): JSX.Element => {
   const { mobileNavbar, manageNavbar } = useGlobalContext();
 
   return (

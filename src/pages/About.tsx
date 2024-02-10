@@ -1,7 +1,6 @@
-import React from "react";
 import "../styles/About.css";
 
-export const About = () => {
+export const About = (): JSX.Element => {
   return (
     <main className="main_container">
       <section className="about_container">

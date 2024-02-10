@@ -1,7 +1,6 @@
-import React from "react";
 import "../styles/Loading.css";
 
-export const Loading = () => {
+export const Loading = (): JSX.Element => {
   return (
     <section className="cocktail_container_load">
       <div className="lds-facebook">

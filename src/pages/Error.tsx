@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Error.css";
 
-export const Error = () => {
+export const Error = (): JSX.Element => {
   return (
     <main className="main_container">
       <section className="error_container">
