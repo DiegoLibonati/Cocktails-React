@@ -1,4 +1,4 @@
-# Cocktails React
+# TheCocktailDB
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ I made a web application that allows you to see different types of drinks. If we
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/Cocktails-React`](https://www.diegolibonati.com.ar/#/project/Cocktails-React)
+[`https://www.diegolibonati.com.ar/#/project/TheCocktailDB`](https://www.diegolibonati.com.ar/#/project/TheCocktailDB)
 
 ## Video
 
